@@ -589,7 +589,7 @@
         });
 
         // Timer Logic with localStorage - 1 MINUTE
-        const TOTAL_SECONDS = 30; // 30 seconds
+        const TOTAL_SECONDS = 60; // 1 minute
 
         const hoursEl = document.getElementById('hours');
         const minutesEl = document.getElementById('minutes');
@@ -2769,8 +2769,8 @@ renderHome();
   var K_SESSION = 'mep_session_end';
   var K_MARIO   = 'mep_mario_end';
 
-  var DUR_MATRIX  = 30 * 1000;       // Phase 1: 30 seconds
-  var MATRIX_HOLD = 5 * 1000;        // extra time to stay on 00:00:00 before switching
+  var DUR_MATRIX  = 60 * 1000;       // Phase 1: 1 minute
+  var MATRIX_HOLD = 10 * 1000;        // extra time to stay on 00:00:00 before switching
   var DUR_SESSION = 5 * 60 * 1000;   // Phase 2: 5 minutes
   var DUR_MARIO   = 30 * 1000;       // Phase 3: 30 seconds
 
